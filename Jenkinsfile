@@ -13,17 +13,18 @@ pipeline{
             }
         }
         
-        stage('Release Code'){
+        stage('Release Code')
+        {
             steps{
             
-                   {
-                        echo "relase the code to artifactory"
-                
-               } 
+                  echo "relase the code to artifactory"
+            }
+          
+        } 
                
               
                 
             }
         }
-    }
-}
+    
+
